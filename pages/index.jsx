@@ -139,7 +139,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @jiangnan
+                @jiangnanFly
               </Button>
             </Link>
           </ListItem>
