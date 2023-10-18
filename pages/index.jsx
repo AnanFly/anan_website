@@ -100,21 +100,17 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+        personality
         </Heading>
         <BioSection>
           <BioYear></BioYear>
-          Born in 河南 中国.
-        </BioSection>
-        <BioSection>
-          <BioYear>2020</BioYear>
-          郑州商学院
+          脚踏封心剑🗡 
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I ❤
         </Heading>
         <Paragraph>
           音乐,{' '}
