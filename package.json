@@ -27,6 +27,15 @@
   "devDependencies": {
     "eslint": "^8.31.0",
     "eslint-config-next": "^13.1.1",
-    "prettier": "^2.8.2"
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3"
+  },
+  "lint-staged": {
+    "**/*.{css,less}": "stylelint '(pages|components|styles)/**/*.(css|less)' --fix --custom-syntax postcss-less",
+    "**/*.ts?(x)": [
+      "eslint --cache --fix",
+      "npx prettier --parser=typescript --write"
+    ]
   }
 }
